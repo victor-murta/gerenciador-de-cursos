@@ -49,6 +49,7 @@ public class Curso {
     public void matricula(Aluno aluno) {
         this.alunos.add(aluno);
         this.matriculaParaAluno.put(aluno.getNumeroMatricula(), aluno);
+        // put = insere em um Map
     }
 
     public Set<Aluno> getAlunos(){
